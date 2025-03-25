@@ -37,11 +37,8 @@
 
 ### 라우터 간 연결용 네트워크
 
-| 네트워크 | 주소 | 서브넷 마스크 | 사용 가능 IP 범위 |
-|—————|———|————————|—————————|
-| Network E | 192.168.0.0/30  | 255.255.255.252 | 192.168.0.1 ~ 192.168.0.2 |
-| Network F | 192.168.0.4/30  | 255.255.255.252 | 192.168.0.5 ~ 192.168.0.6 |
-| Network G | 192.168.0.8/30  | 255.255.255.252 | 192.168.0.9 ~ 192.168.0.10 |
+![Image](https://github.com/user-attachments/assets/99f06cf3-6376-4a6c-af23-95b795c87ce2)
+
 
 —
 
@@ -49,23 +46,34 @@
 
 ### PC 설정
 
-| PC | 연결 네트워크 | IP 주소 |
-|——|————————|————|
-| PC0 | Network A | 192.168.0.203 |
-| PC1 | Network B | 192.168.0.139 |
-| PC2 | Network C | 192.168.0.75  |
-| PC3 | Network D | 192.168.0.43  |
+![Image](https://github.com/user-attachments/assets/fe8f3bc5-8721-459b-957e-bb4f3117f43c)
 
-### 라우터 인터페이스
 
-라우터는 각 네트워크에 맞는 인터페이스 IP를 설정하여 연결함.
+### 라우팅 테이블
+
+
+![스크린샷 2025-03-25 172402](https://github.com/user-attachments/assets/d91726ac-7d3e-4699-bca2-726c6b6f9941)
 
 —
 
 ## 🧭 라우팅 및 통신 확인
 
 - 각 라우터에 정적 라우팅 설정
+
+![스크린샷 2025-03-25 172258](https://github.com/user-attachments/assets/2a344b3f-d685-4e17-a484-131ee1c73ac3)
+![스크린샷 2025-03-25 172224](https://github.com/user-attachments/assets/ba39c9db-b7a7-4f97-8600-22cfb781cea1)
+![스크린샷 2025-03-25 172147](https://github.com/user-attachments/assets/9a41f526-ffa5-4b42-8e56-fa192a48aaf6)
+![스크린샷 2025-03-25 172102](https://github.com/user-attachments/assets/e10eae2b-f917-49a6-8fd4-ecdd1228a18a)
+
+  
 - ping 테스트를 통해 PC 간 통신 확인
+  
+![스크린샷 2025-03-25 172932](https://github.com/user-attachments/assets/7f359d06-8fed-45c4-83dc-cee88cd55ca4)
+![스크린샷 2025-03-25 172857](https://github.com/user-attachments/assets/56caa21a-0060-48b7-8f3b-f181d6ccf2b7)
+![스크린샷 2025-03-25 172821](https://github.com/user-attachments/assets/fdfb2873-b4b5-41b2-a087-a4dd1d8ab3b3)
+![스크린샷 2025-03-25 172734](https://github.com/user-attachments/assets/75c073b3-41a7-4ba7-90c4-d66376d43309)
+![스크린샷 2025-03-25 172651](https://github.com/user-attachments/assets/3a3c8136-d8d4-4640-964e-4ff335b589b1)
+![스크린샷 2025-03-25 172616](https://github.com/user-attachments/assets/d1afd28c-3b75-49b6-85ac-5fa85c48ff5c)
 
 —
 
